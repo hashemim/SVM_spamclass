@@ -2,7 +2,6 @@
 """
 Created on Sat Dec  3 13:56:15 2016
 
-@author: M Hashemi
 This function extracts the features from many emails and produce a feature 
 matrix from them. The matrix is set to be later used by a classification
 algorithm
@@ -22,7 +21,7 @@ get_email_text = email_test.get_email_text
 
 feature_vectors = []
 
-indir = "/Users/mohammadhashemi/Documents/SVM_SpamClassification/spam"
+indir = "THE PATH TO DIRECTORY INCLUDING EMAIL FILES GOES HERE"
 
 os.chdir(indir)
 for root, dirs, filenames in os.walk(indir):
